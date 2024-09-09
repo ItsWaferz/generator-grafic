@@ -1,0 +1,116 @@
+:root {
+    --background: #363732;
+    --text: #DCE1E9;
+    --light_blue: #53D8FB;
+    --dark_blu: #40b0fa;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlu {
+    text-align: center;
+    font-size: 5rem;
+}
+
+form {
+    display: flex;
+    gap: 3dvh;
+    flex-direction: column;
+    padding-top: 5rem;
+    align-items: center;
+}
+
+form label {
+    font-size: 2rem;
+}
+
+input {
+    background: rgba(0, 0, 255, 0.130);
+    border: solid ;
+    border-color: var(--dark_blu);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+
+#moneda, #puncte {
+    font-size: 1.5rem;
+    background-color: var(--dark_blu);
+    color: var(--text);
+    border-radius: 2px;
+    margin-right: 1rem;
+    color: rgba(0, 0, 96, 0.5);;
+}
+
+.punct {
+    display: flex;
+    gap: 2dvw;
+}
+
+#punct_1, #punct_2, #punct_3, #punct_4 {
+    display: none;
+}
+
+.grafic {
+    height: 500px;
+    width: 975px;
+    background-color: white;
+    position: relative;
+    color: black;
+    font-size: 20px;
+}
+
+.linie {
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 800px;
+    bottom: 75px;
+    left: 75px;
+}
+
+.linie_2 {
+    transform: translate(624px, -174px) rotate(90deg);
+    width: 350px;
+}
+
+.linie_3 {
+    transform: translate(-37px, -174px) rotate(-23.5deg);
+    width: 873px;
+}
+
+.varsta_i {
+    position: absolute;
+    bottom: 40px;
+    left: 50px
+}
+
+.varsta_f {
+    position: absolute;
+    bottom: 40px;
+    right: 75px
+}
+
+.suma_i {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    left: 60px;
+    bottom: 86px;
+}
+
+.suma_f{
+
+    position: absolute;
+    top: 45px;
+    right: 30px
+}
