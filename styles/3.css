@@ -1,0 +1,100 @@
+/* 3 puncte  */
+.linie_4{
+    height: 90px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 275px;
+}
+
+.linie_5{
+    height: 177px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 475px;
+}
+
+.linie_6{
+    height: 264px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 675px;
+}
+
+.linie_7{
+    display: none;
+}
+
+.varsta_1 {
+    position: absolute;
+    bottom: 40px;
+    left: 235px;
+}
+
+.varsta_2 {
+    position: absolute;
+    bottom: 40px;
+    left: 435px;
+}
+
+.varsta_3 {
+    position: absolute;
+    bottom: 40px;
+    left: 635px;
+}
+
+.varsta_4 {
+    display: none;
+}
+
+.suma_1 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 163px;
+    left: 230px;
+}
+
+.suma_2 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 253px;
+    left: 430px;
+}
+
+.suma_3 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 338px;
+    left: 620px;
+}
+
+.suma_4 {
+    display: none;
+}
+
+.plus_1 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 285px;
+}
+
+.plus_2 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 485px;
+}
+
+.plus_3 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 685px;
+}
+
+.plus_4 {
+    display: none;
+}

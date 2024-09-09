@@ -1,0 +1,112 @@
+/* 4 puncte */
+.linie_4{
+    height: 73px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 235px;
+}
+
+.linie_5{
+    height: 142px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 395px;
+}
+
+.linie_6{
+    height: 211px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 555px;}
+
+.linie_7{
+    height: 280px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 715px;}
+
+.varsta_1 {
+    position: absolute;
+    bottom: 40px;
+    left: 195px;
+}
+
+.varsta_2 {
+    position: absolute;
+    bottom: 40px;
+    left: 355px;
+}
+
+.varsta_3 {
+    position: absolute;
+    bottom: 40px;
+    left: 515px;
+}
+
+.varsta_4 {
+    position: absolute;
+    bottom: 40px;
+    left: 665px;
+}
+
+.suma_1 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 152px;
+    left: 194px;
+}
+
+.suma_2 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 222px;
+    left: 350px;
+}
+
+.suma_3 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 295px;
+    left: 510px;
+}
+
+.suma_4 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 361px;
+    left: 665px;
+}
+
+.plus_1 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 245px;
+}
+
+.plus_2 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 405px;
+}
+
+.plus_3 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 565px;
+}
+
+.plus_4 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 725px;
+}
+
+

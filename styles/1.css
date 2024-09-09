@@ -1,0 +1,76 @@
+/* 1 punct  */
+.linie_4{
+    height: 177px;
+    width: 3px;
+    position: absolute;
+    bottom: 75px;
+    left: 475px;
+}
+
+.linie_5{
+    display: none;
+}
+
+.linie_6{
+    display: none;
+}
+
+.linie_7{
+    display: none;
+}
+
+.varsta_1 {
+    position: absolute;
+    bottom: 40px;
+    left: 435px;
+}
+
+.varsta_2 {
+    display: none;
+}
+
+.varsta_3 {
+    display: none;
+}
+
+.varsta_4 {
+    display: none;
+}
+
+.suma_1 {
+    transform: rotate(-23.5deg);
+    position: absolute;
+    bottom: 254px;
+    left: 435px;
+}
+
+.suma_2 {
+    display: none;
+}
+
+.suma_3 {
+    display: none;
+}
+
+.suma_4 {
+    display: none;
+}
+
+.plus_1 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    left: 485px;
+}
+
+.plus_2 {
+    display: none;
+}
+
+.plus_3 {
+    display: none;
+}
+
+.plus_4 {
+    display: none;
+}

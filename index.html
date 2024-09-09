@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafic</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link id="1" rel="stylesheet" href="styles/1.css">
+    <link id="2" rel="stylesheet" href="styles/2.css">
+    <link id="3" rel="stylesheet" href="styles/3.css">
+    <link id="4" rel="stylesheet" href="styles/4.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="titlu">Generator Grafic</div>
+    <form>
+        <div class="optiuni">
+            <label for="puncte">Numar de puncte:</label>
+            <select onchange="schimbare()" id="puncte">
+                <option hidden disabled selected value></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label for="moneda">Moneda:</label>
+            <select onchange="functii()" id="moneda">
+                <option value=" Lei">Lei</option>
+                <option value=" €">€</option>
+                <option value=" $">$</option>
+                <option value="">Altceva</option>
+            </select>
+        </div>
+        <div class="punct" id="punct_i">
+            <div class="text">Varsta initiala:</div>
+            <input id="v_i" onchange="varsta_i()" type="text">
+            <div class="text">Suma initiala:</div>
+            <input id="s_i" onchange="suma_i()" type="text">
+        </div>
+        <div class="punct" id="punct_f">
+            <div class="text">Varsta finala:</div>
+            <input id="v_f" onchange="varsta_f()" type="text">
+            <div class="text">Suma finala:</div>
+            <input id="s_f" onchange="suma_f()" type="text">
+        </div>
+        <div class="punct" id="punct_1">
+            <div class="text">Varsta:</div>
+            <input id="v_1" onchange="varsta_1()" type="text">
+            <div class="text">Suma:</div>
+            <input id="s_1" onchange="suma_1()" type="text">
+            <div class="text">Plus:</div>
+            <input id="p_1" onchange="plus_1()" type="text">
+        </div>
+        <div class="punct" id="punct_2">
+            <div class="text">Varsta:</div>
+            <input id="v_2" onchange="varsta_2()" type="text">
+            <div  class="text">Suma:</div>
+            <input id="s_2" onchange="suma_2()" type="text">
+            <div class="text">Plus:</div>
+            <input id="p_2" onchange="plus_2()" type="text">
+        </div>
+        <div class="punct" id="punct_3">
+            <div class="text">Varsta:</div>
+            <input id="v_3" onchange="varsta_3()" type="text">
+            <div class="text">Suma:</div>
+            <input id="s_3" onchange="suma_3()" type="text">
+            <div class="text">Plus:</div>
+            <input id="p_3" onchange="plus_3()" type="text">
+        </div>
+        <div class="punct" id="punct_4">
+            <div class="text">Varsta:</div>
+            <input id="v_4" onchange="varsta_4()" type="text">
+            <div class="text">Suma:</div>
+            <input id="s_4" onchange="suma_4()" type="text">
+            <div class="text">Plus:</div>
+            <input id="p_4" onchange="plus_4()" type="text">
+        </div>
+
+        <div class="grafic">
+            <div class="linie"></div>
+            <div class="linie linie_2"></div>
+            <div class="linie linie_3"></div>
+            <div class="linie linie_4"></div>
+            <div class="linie linie_5"></div>
+            <div class="linie linie_6"></div>
+            <div class="linie linie_7"></div>
+            <div id="varsta_i" class="varsta_i"></div>
+            <div id="varsta_1" class="varsta_1"></div>
+            <div id="varsta_2" class="varsta_2"></div> 
+            <div id="varsta_3" class="varsta_3"></div> 
+            <div id="varsta_4" class="varsta_4"></div> 
+            <div id="varsta_f" class="varsta_f"></div>
+            <div id="suma_i" class="suma_i"></div>
+            <div id="suma_1" class="suma_1"></div>
+            <div id="suma_2" class="suma_2"></div>
+            <div id="suma_3" class="suma_3"></div>
+            <div id="suma_4" class="suma_4"></div>
+            <div id="suma_f" class="suma_f"></div>
+            <div id="plus_1" class="plus_1"></div>
+            <div id="plus_2" class="plus_2"></div>
+            <div id="plus_3" class="plus_3"></div>
+            <div id="plus_4" class="plus_4"></div>
+
+        </div>
+    </form>
+</body>
+</html>
