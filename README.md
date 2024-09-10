@@ -1,1 +1,1 @@
-# generator-grafic
+https://itswaferz.github.io/generator-grafic/
