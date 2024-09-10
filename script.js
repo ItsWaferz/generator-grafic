@@ -200,7 +200,7 @@ function plus_1() {
     var varsta = document.getElementById('plus_1');
     var moneda = document.getElementById('moneda').value;
     if (value) {
-        varsta.innerHTML = '+' + value + moneda + ' / an';
+        varsta.innerHTML = '+' + value + moneda + ' / luna';
     }
     else {
         varsta.innerHTML = '';
@@ -212,7 +212,7 @@ function plus_2() {
     var varsta = document.getElementById('plus_2');
     var moneda = document.getElementById('moneda').value;
     if (value) {
-        varsta.innerHTML = '+' + value + moneda + ' / an';
+        varsta.innerHTML = '+' + value + moneda + ' / luna';
     }
     else {
         varsta.innerHTML = '';
@@ -224,7 +224,7 @@ function plus_3() {
     var varsta = document.getElementById('plus_3');
     var moneda = document.getElementById('moneda').value;
     if (value) {
-        varsta.innerHTML = '+' + value + moneda + ' / an';
+        varsta.innerHTML = '+' + value + moneda + ' / luna';
     }
     else {
         varsta.innerHTML = '';
@@ -236,7 +236,7 @@ function plus_4() {
     var varsta = document.getElementById('plus_4');
     var moneda = document.getElementById('moneda').value;
     if (value) {
-        varsta.innerHTML = '+' + value + moneda + ' / an';
+        varsta.innerHTML = '+' + value + moneda + ' / luna';
     }
     else {
         varsta.innerHTML = '';
